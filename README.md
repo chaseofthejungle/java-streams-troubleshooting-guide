@@ -14,6 +14,7 @@
 8. [.collect() Improperly Utilized for Mutable Reduction Scenarios](#eight)
 9. [Forgetting to Utilize sorted() Method with limit()](#nine)
 10. [Overlooking 'Optional' with the findAny() and findFirst() Methods](#ten)
+11. [Supplemental Resource](#supplemental)
   
 ## 1. <a name="one">Utilizing Streams with Non-Complex Iterations</a>
 
@@ -52,6 +53,12 @@
 <hr />
 
 ## 10. <a name="ten">Overlooking 'Optional' with the findAny() and findFirst() Methods</a>
+  
+<hr />
+  
+## 11. <a name="supplemental">Supplemental Resource</a>
+  
+[Java Clean Coding Guide](https://github.com/chaseofthejungle/java-clean-coding-guide)  
   
 <hr />
   
