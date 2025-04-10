@@ -2,7 +2,7 @@
   
 <hr />
 
-#### Table of Contents:
+#### Table of Contents (10 Common Mistakes + Supplemental Resources):
 
 1. [Utilizing Streams with Non-Complex Iterations](#one)
 2. [Omitting .close() Method for Stream Sources](#two)
@@ -17,7 +17,16 @@
 11. [Supplemental Resources](#supplemental)
   
 ## 1. <a name="one">Utilizing Streams with Non-Complex Iterations</a>
-
+  
+Instead of:
+  
+```
+List<String> firstNames = Arrays.asList("Tyler", "Barry", "Sophia");
+firstNames.forEach(System.out::println);
+```
+  
+Restrict stream usage to more complex tasks, such as reducing, mapping, and filtering.
+  
 <hr />
 
 ## 2. <a name="two">Omitting .close() Method for Stream Sources</a>
