@@ -74,8 +74,9 @@ Restrict stream usage to more complex tasks, such as reducing, mapping, and filt
   
 ## 12. <a name="supplemental">Supplemental Resources</a>
   
-* [Java Clean Coding Guide](https://github.com/chaseofthejungle/java-clean-coding-guide)  
-* [Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)
+* *[Stream Documentation from Official Java Platform SE 8 API](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)*
+* *[Java Clean Coding Guide](https://github.com/chaseofthejungle/java-clean-coding-guide)*  
+* *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
   
 <hr />
   
