@@ -21,6 +21,10 @@
   
 ## 1. <a name="streams">Overview of Java Streams</a>
   
+**Java streams** were introduced in Java 8 as a mechanism for processing data sequences and collections in a concise and functional manner, including for complex operations. While streams are not collections for element storage (unlike data structures), they are abstractions of (immutable) function collections. Thus, although pointers to stream locations to retrieve elements is not realized, functions for performing data operations can be specified, transforming streams and their origin streams.
+  
+Streams are still commonly used today, as they are highly readable and processor efficient (streams evaluate only when they are computed, and can optimize multi-core processors).
+  
 <hr />
   
 ## 2. <a name="one">Mistake #1: Utilizing Streams with Non-Complex Iterations</a>
@@ -80,5 +84,4 @@ Restrict stream usage to more complex tasks, such as reducing, mapping, and filt
   
 <hr />
   
-TODO #1: Overview of 10 common Java stream errors, and how to resolve them with refined code.  
-TODO #2: Add overview of Java streams.
+TODO: Overview of 10 common Java stream errors, and how to resolve them with refined code.  
