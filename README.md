@@ -41,7 +41,7 @@ Restrict stream usage to more complex tasks, such as reducing, mapping, and filt
 <hr />
 
 ## 3. <a name="two">Mistake #2: Omitting .close() Method for Stream Sources</a>
-
+  
 <hr />
 
 ## 4. <a name="three">Mistake #3: Improper Handling of Terminal/Console Operations</a>
@@ -50,6 +50,10 @@ Restrict stream usage to more complex tasks, such as reducing, mapping, and filt
 
 ## 5. <a name="four">Mistake #4: Too Many Parallel Streams</a>
 
+<em>Overuse of ```.parallel()``` calls for input and output handling can result in performance degradation.</em>
+  
+Best Practice: Reserve use of parallel streams for more intensive CPU-bound jobs.
+  
 <hr />
 
 ## 6. <a name="five">Mistake #5: Modifying External Variable State</a>
@@ -69,7 +73,7 @@ Restrict stream usage to more complex tasks, such as reducing, mapping, and filt
 <hr />
 
 ## 10. <a name="nine">Mistake #9: Forgetting to Utilize sorted() Method with limit()</a>
-
+  
 <hr />
 
 ## 11. <a name="ten">Mistake #10: Overlooking 'Optional' with the findAny() and findFirst() Methods</a>
